@@ -1,0 +1,7 @@
+databaseChangeLog:
+  - changeSet:
+      id: init tables
+      author: yevhenii shefter
+      changes:
+        - sqlFile:
+            path: db/changelog/init-migration/tables_creation.sql
